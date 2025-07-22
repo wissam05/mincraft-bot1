@@ -1,7 +1,6 @@
 const TelegramBot = require("node-telegram-bot-api");
 const { createClient } = require("bedrock-protocol");
 
-const token = '7596814397:AAF8za4-m6VcDIfwsSwTZxOsQa004NDO80c'; // استبدل بالتوكن الخاص بك
 const bot = new TelegramBot(token, { polling: true });
 
 const ownerId = 5628986973; // استبدل برقم معرف حسابك في تيليجرام
