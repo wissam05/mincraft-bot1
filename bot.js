@@ -3,7 +3,7 @@ const { createClient } = require("bedrock-protocol");
 
 const bot = new TelegramBot(token, { polling: true });
 
-const ownerId = 5628986973; // استبدل برقم معرف حسابك في تيليجرام
+
 
 let client = null;
 let isConnected = false;
